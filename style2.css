@@ -1,16 +1,37 @@
 .contoiner {
   background-color: blue;
+  color: blue;
   width: 500px;
   margin: 0 auto;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-end;
+  align-items: flex-end; */
+  /* 我是註解 */
 }
 
-.item {
+.item1 {
+  background-color: aqua;
+  color: blue;
+  width: 100px;
+  height: 50px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.item2 {
+  background-color: aqua;
+  color: blue;
+  width: 100px;
+  height: 50px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.item3 {
   background-color: aqua;
   color: blue;
   width: 100px;
